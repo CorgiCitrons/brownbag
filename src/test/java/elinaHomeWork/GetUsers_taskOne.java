@@ -1,15 +1,11 @@
-package simpleGetTest;
+package elinaHomeWork;
 
 import baseclass.BaseClass;
-import com.google.gson.JsonObject;
 import io.restassured.http.Method;
-import io.restassured.path.json.JsonPath;
-import org.apache.xmlbeans.impl.tool.PrettyPrinter;
-import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class SimpleGetTest extends BaseClass {
+public class GetUsers_taskOne extends BaseClass {
 
     @Test
     void requestToServer() {
