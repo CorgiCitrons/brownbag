@@ -2,7 +2,6 @@ package elinaHomeWork;
 
 import baseclass.BaseClass;
 import io.restassured.http.Method;
-import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
